@@ -6,6 +6,10 @@
         font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
       }
 
+      h1:hover{
+        background-color: red;
+      }
+
       p{
         background-color: yellowgreen;
       }
@@ -13,4 +17,13 @@
       span{
         color: blue;
         font-weight: bold;
+      }
+
+      #movies{
+        color: #c60000;
+
+      }
+
+      .bg-blue{
+        background-color: cadetblue;
       }

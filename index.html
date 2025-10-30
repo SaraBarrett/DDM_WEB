@@ -4,11 +4,13 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>DDM Web</title>
-    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Nosso CSS -->
+    <link rel="stylesheet" href="css/style.css" />
+  
   </head>
   <body>
-
-    <h1 >Hello Mundo</h1>
+    <h1 id="top">Hello Mundo</h1>
     <h1>segundo título</h1>
     <ul>
       <li><a href="pages/about.html"> Vai para About </a></li>
@@ -16,6 +18,7 @@
       <li><a href="https://istec-porto.pt">Istec</a></li>
       <li><a href="pages/UcsTable.html">Tabela de UCs</a></li>
       <li><a href="pages/register.html">Registo</a></li>
+      <li><a href="#movies">Movies</a></li>
     </ul>
     <hr />
     <img width="200px" height="150px" src="images/praia.webp" alt="praia" />
@@ -44,7 +47,7 @@
     <!-- caixa de títulos -->
     <div>
       <h1>isto é um h1</h1>
-      <h2>isto é um h2</h2>
+      <h2 class="bg-blue">isto é um h2</h2>
       <h3>isto é um h3</h3>
       <h4>isto é um h4</h4>
       <h5>isto é um h5</h5>
@@ -90,7 +93,7 @@
 
     <!-- Lista Não Ordenada -->
     <ul>
-      <li>
+      <li class="bg-blue">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa libero
         quia voluptatibus aut molestias nisi in magnam, iusto maxime quod
         maiores numquam, quaerat quisquam vitae, sapiente reprehenderit sunt
@@ -121,12 +124,12 @@
 
     <!-- pp 23 -->
 
-    <h1>Movies</h1>
+    <h1 id="movies">Movies</h1>
     <h2>My Top 3 Movies:</h2>
 
     <ol>
       <li>Amade</li>
-      <li>Stand By Me</li>
+      <li class="bg-blue">Stand By Me</li>
       <li>Amelie</li>
     </ol>
 
@@ -137,5 +140,8 @@
       <li>Parasite</li>
       <li>Annie Hall</li>
     </ul>
+    <a href="#top">Top</a>
+
+ 
   </body>
 </html>
