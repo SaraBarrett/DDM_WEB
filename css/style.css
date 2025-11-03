@@ -32,12 +32,25 @@
       #boxmovies {
         background-color: #008000;
         width: 200px;
-        height:auto;
+        height: auto;
         padding: 10%;
-     }
+      }
 
-     #teste{
-      height: 200px;
-      width: 200px;
-      background-color: red;
-     }
+
+      #teste {
+        height: 200px;
+        width: 200px;
+        background-color: red;
+      }
+
+
+      @media (max-width: 800px) {
+        #boxmovies {
+          display: none;
+        }
+
+        h1 {
+          background-color: green;
+          color: black;
+        }
+    }
