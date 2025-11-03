@@ -1,4 +1,4 @@
-      h1{
+      h1 {
         background-color: black;
         color: #ffffff;
         text-align: center;
@@ -6,24 +6,38 @@
         font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
       }
 
-      h1:hover{
+      h1:hover {
         background-color: red;
       }
 
-      p{
+      p {
         background-color: yellowgreen;
       }
 
-      span{
+      span {
         color: blue;
         font-weight: bold;
       }
 
-      #movies{
+      #movies {
         color: #c60000;
 
       }
 
-      .bg-blue{
+      .bg-blue {
         background-color: cadetblue;
       }
+
+
+      #boxmovies {
+        background-color: #008000;
+        width: 200px;
+        height:auto;
+        padding: 10%;
+     }
+
+     #teste{
+      height: 200px;
+      width: 200px;
+      background-color: red;
+     }
