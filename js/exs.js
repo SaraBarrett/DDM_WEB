@@ -41,6 +41,57 @@ const product = {
   colors: ["red", "blue", "green"],
 };
 
-product.price = 2.55
-console.log(product.price)
-console.log(product.colors[2])
+product.price = 2.55;
+console.log(product.price);
+console.log(product.colors[2]);
+
+//pp48
+function printHeart() {
+  alert("<3");
+}
+
+//pp 52
+function rant(message, numTimes) {
+  for (i = 0; i < numTimes; i++) {
+    console.log(i + " " + message.toUpperCase());
+  }
+}
+
+//pp 55
+function isSnakeEyes(n1, n2) {
+  if (n1 == 1 && n1 == n2) {
+    console.log("yay, snake eyes");
+  } else {
+    console.log("não sao olhos de cobra");
+  }
+}
+
+//pp 10
+const fullNames = [
+  { first: "Albus", last: "Dumbledore" },
+  { first: "Harry", last: "Potter" },
+  { first: "Hermione", last: "Granger" },
+  { first: "Ron", last: "Weasley" },
+  { first: "Rubeus", last: "Hagrid" },
+  { first: "Minerva", last: "McGonagall" },
+  { first: "Severus", last: "Snape" },
+];
+
+let firstName = fullNames.map(function(name){
+  return name.first
+})
+
+//pp 12 
+
+const greet = (greetName) => {
+  return 'Hey '+greetName;
+}
+
+
+//p18
+function validUsernames(usernames){
+    const valid = usernames.filter((username) => {return username.length <10})
+
+    return valid;
+
+}

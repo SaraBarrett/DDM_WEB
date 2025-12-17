@@ -27,6 +27,7 @@ function studentsList() {
   // console.log(alunos);
 }
 
+
 let weekDays = [
   ["Segunda Manhã", "Segunda Tarde", "Segunda Noite"],
   ["Terça Manhã", "Terça Tarde", "Terça Noite"],
@@ -47,3 +48,12 @@ let course = {
 course.hours= 1900;
 console.log(course.ucs[1])
 
+
+function helloPeople(target){
+  alert('Olá '+target+' da turma de dispositivos móveis')
+}
+function showForEach(){
+let internships = ['Natixis', 'ISTEC','OLX', 'BOSCH'];
+ 
+
+}
